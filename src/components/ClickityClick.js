@@ -19,7 +19,7 @@ export default class ClickityClick extends Component {
     return (
       <div>
         <p> I have {this.state.hasBeenClicked ? null : 'not'} been clicked!</p>
-        <button onClick={this.hnadleClick}>
+        <button onClick={this.handleClick}>
           Click me!
         </button>
       </div>
